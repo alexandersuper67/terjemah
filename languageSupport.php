@@ -15,6 +15,7 @@ switch ($tujuan) {
     break;
 
     case 'italia':
+    case 'itali':
       $kode_bahasa = 'it';
       break;
 
@@ -30,6 +31,47 @@ switch ($tujuan) {
         case 'hanggul':
         case 'korsel':
           $kode_bahasa = 'ko';
+          break;
+
+          case 'jepang':
+          case 'japan':
+          case 'japanese':
+          $kode_bahasa ='ja';
+          break;
+
+          case 'jerman':
+          case 'germany':
+          $kode_bahasa = 'de';
+          break;
+
+          case 'perancis':
+          case 'france':
+          case 'prancis':
+          case 'french':
+          $kode_bahasa = 'fr';
+          break;
+
+          case 'thailand':
+          case 'thai':
+          $kode_bahasa ='th';
+          break;
+
+          case 'hindi':
+          case 'india':
+          case 'hindia':
+          $kode_bahasa = 'hi';
+          break;
+
+          case 'spanyol':
+          case 'spain':
+          case 'spanish':
+          $kode_bahasa = 'es';
+          break;
+
+          case 'rusia':
+          case 'russia':
+          case 'russian':
+          $kode_bahasa = 'ru';
           break;
 
 case 'indonesia':
