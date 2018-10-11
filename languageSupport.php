@@ -74,6 +74,12 @@ switch ($tujuan) {
           $kode_bahasa = 'ru';
           break;
 
+          case 'arab':
+          case 'arabic':
+          case 'arabian':
+          $kode_bahasa='ar';
+          break;
+
 case 'indonesia':
   $kode_bahasa = 'id';
   break;
