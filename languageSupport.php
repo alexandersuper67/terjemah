@@ -3,6 +3,7 @@ $kode_bahasa = '';
 
 switch ($tujuan) {
   case 'inggris':
+  case 'Inggris':
   case 'english':
   case 'uk':
   case 'england':
@@ -80,19 +81,11 @@ switch ($tujuan) {
           $kode_bahasa='ar';
           break;
 
-          case 'sundanese':
-          case 'sunda':
-          case 'sundo':
-          $kode_bahasa='su';
-          break;
-
-          case 'javanese':
-          case 'java':
-          case 'jawa':
-          case 'jowo':
+          case 'javanese';
+          case 'java';
+          case 'jawa';
           $kode_bahasa='jv';
           break;
-
 
 case 'indonesia':
   $kode_bahasa = 'id';
