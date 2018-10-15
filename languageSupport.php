@@ -80,18 +80,26 @@ switch ($tujuan) {
           $kode_bahasa='ar';
           break;
 
-          case 'javanese';
-          case 'java';
-          case 'jawa';
+          case 'sundanese':
+          case 'sunda':
+          case 'sundo':
+          $kode_bahasa='su';
+          break;
+
+          case 'javanese':
+          case 'java':
+          case 'jawa':
+          case 'jowo':
           $kode_bahasa='jv';
           break;
+
 
 case 'indonesia':
   $kode_bahasa = 'id';
   break;
 
     default:
-    $kode_bahasa = 'null';
+    $kode_bahasa = 'id';
     break;
 }
 
