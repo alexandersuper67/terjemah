@@ -99,7 +99,7 @@ case 'indonesia':
   break;
 
     default:
-    $kode_bahasa = 'id';
+    $kode_bahasa = 'null';
     break;
 }
 
